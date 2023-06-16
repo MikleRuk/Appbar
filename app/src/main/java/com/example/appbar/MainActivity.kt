@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                         val description: String? = category.description
                         with(binding) {
                             tvTitle1.text = name
-                            tvdescription1.text = description
+                            tvDescription1.text = description
                         }
 
                         Picasso.get().load(image_url).into(binding.im1)

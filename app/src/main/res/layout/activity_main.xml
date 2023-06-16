@@ -150,7 +150,7 @@
                     app:srcCompat="@drawable/cotik" />
 
                 <TextView
-                    android:id="@+id/tvTitle1"
+                    android:id="@+id/tvDescription1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="22dp"
@@ -160,10 +160,10 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tvdescription1" />
+                    app:layout_constraintTop_toBottomOf="@+id/tvTitle1" />
 
                 <TextView
-                    android:id="@+id/tvdescription1"
+                    android:id="@+id/tvTitle1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="173dp"
@@ -209,7 +209,7 @@
                     app:srcCompat="@drawable/cotik" />
 
                 <TextView
-                    android:id="@+id/tvTitle2"
+                    android:id="@+id/tvDescription2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="22dp"
@@ -219,10 +219,10 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tvdescription2" />
+                    app:layout_constraintTop_toBottomOf="@+id/tvTitle2" />
 
                 <TextView
-                    android:id="@+id/tvdescription2"
+                    android:id="@+id/tvTitle2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="173dp"
@@ -269,7 +269,7 @@
                     app:srcCompat="@drawable/cotik" />
 
                 <TextView
-                    android:id="@+id/tvTitle3"
+                    android:id="@+id/tvDescription3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="22dp"
@@ -279,10 +279,10 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tvdescription3" />
+                    app:layout_constraintTop_toBottomOf="@+id/tvTitle3" />
 
                 <TextView
-                    android:id="@+id/tvdescription3"
+                    android:id="@+id/tvTitle3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="173dp"
@@ -329,7 +329,7 @@
                     app:srcCompat="@drawable/cotik" />
 
                 <TextView
-                    android:id="@+id/tvTitle4"
+                    android:id="@+id/tvDescription4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="22dp"
@@ -339,10 +339,10 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tvdescription4" />
+                    app:layout_constraintTop_toBottomOf="@+id/tvTitle4" />
 
                 <TextView
-                    android:id="@+id/tvdescription4"
+                    android:id="@+id/tvTitle4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="173dp"
@@ -389,7 +389,7 @@
                     app:srcCompat="@drawable/cotik" />
 
                 <TextView
-                    android:id="@+id/tvTitle5"
+                    android:id="@+id/tvDescription5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="22dp"
@@ -399,10 +399,10 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tvdescription5" />
+                    app:layout_constraintTop_toBottomOf="@+id/tvTitle5" />
 
                 <TextView
-                    android:id="@+id/tvdescription5"
+                    android:id="@+id/tvTitle5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="173dp"
