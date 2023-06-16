@@ -240,12 +240,14 @@
 
                 <TextView
                     android:id="@+id/tvDescription2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="22dp"
+                    android:layout_width="171dp"
+                    android:layout_height="68dp"
+                    android:layout_marginStart="180dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="16dp"
                     android:text="TextView"
+                    android:textColor="#0C0000"
+                    android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
@@ -259,23 +261,50 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="60dp"
                     android:text="TextView"
+                    android:textColor="#0B0000"
                     android:textSize="16dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <Button
-                    android:id="@+id/btn2"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:gravity="center"
                     android:layout_width="87dp"
                     android:layout_height="32dp"
-                    android:layout_marginTop="119dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="16dp"
-                    android:text="Button"
+                    android:layout_marginEnd="4dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.957"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn2"
+                        android:layout_width="87dp"
+                        android:layout_height="32dp"
+                        android:background="#F6C3C3"
+                        android:src="@drawable/rectangle_42"
+                        android:textAlignment="center"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvImBt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="755"
+                        android:textSize="14dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -300,12 +329,14 @@
 
                 <TextView
                     android:id="@+id/tvDescription3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="22dp"
+                    android:layout_width="171dp"
+                    android:layout_height="68dp"
+                    android:layout_marginStart="180dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="16dp"
                     android:text="TextView"
+                    android:textColor="#0C0000"
+                    android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
@@ -319,23 +350,50 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="60dp"
                     android:text="TextView"
+                    android:textColor="#0B0000"
                     android:textSize="16dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <Button
-                    android:id="@+id/btn3"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:gravity="center"
                     android:layout_width="87dp"
                     android:layout_height="32dp"
-                    android:layout_marginTop="119dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="16dp"
-                    android:text="Button"
+                    android:layout_marginEnd="4dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.957"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn3"
+                        android:layout_width="87dp"
+                        android:layout_height="32dp"
+                        android:background="#F6C3C3"
+                        android:src="@drawable/rectangle_42"
+                        android:textAlignment="center"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvImBt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="755"
+                        android:textSize="14dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -360,12 +418,14 @@
 
                 <TextView
                     android:id="@+id/tvDescription4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="22dp"
+                    android:layout_width="171dp"
+                    android:layout_height="68dp"
+                    android:layout_marginStart="180dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="16dp"
                     android:text="TextView"
+                    android:textColor="#0C0000"
+                    android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
@@ -379,23 +439,50 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="60dp"
                     android:text="TextView"
+                    android:textColor="#0B0000"
                     android:textSize="16dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <Button
-                    android:id="@+id/btn4"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:gravity="center"
                     android:layout_width="87dp"
                     android:layout_height="32dp"
-                    android:layout_marginTop="119dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="16dp"
-                    android:text="Button"
+                    android:layout_marginEnd="4dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.957"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn4"
+                        android:layout_width="87dp"
+                        android:layout_height="32dp"
+                        android:background="#F6C3C3"
+                        android:src="@drawable/rectangle_42"
+                        android:textAlignment="center"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvImBt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="755"
+                        android:textSize="14dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -420,12 +507,14 @@
 
                 <TextView
                     android:id="@+id/tvDescription5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="22dp"
+                    android:layout_width="171dp"
+                    android:layout_height="68dp"
+                    android:layout_marginStart="180dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="16dp"
                     android:text="TextView"
+                    android:textColor="#0C0000"
+                    android:textSize="14sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.648"
                     app:layout_constraintStart_toStartOf="parent"
@@ -439,23 +528,50 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="60dp"
                     android:text="TextView"
+                    android:textColor="#0B0000"
                     android:textSize="16dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <Button
-                    android:id="@+id/button"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:gravity="center"
                     android:layout_width="87dp"
                     android:layout_height="32dp"
-                    android:layout_marginTop="119dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="16dp"
-                    android:text="Button"
+                    android:layout_marginEnd="4dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.957"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/btn5"
+                        android:layout_width="87dp"
+                        android:layout_height="32dp"
+                        android:background="#F6C3C3"
+                        android:src="@drawable/rectangle_42"
+                        android:textAlignment="center"
+                        android:textSize="11sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tvImBt5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="755"
+                        android:textSize="14dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
