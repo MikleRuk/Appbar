@@ -45,9 +45,11 @@ class MainActivity : AppCompatActivity() {
                         val name: String? = category.name
                         val image_url: String? = category.imageUrl
                         val description: String? = category.description
+                        val price: Int? = category.price
                         with(binding) {
                             tvTitle1.text = name
                             tvDescription1.text = description
+                            tvImBt1.text = "от $price Р"
                         }
 
                         Picasso.get().load(image_url).into(binding.im1)
