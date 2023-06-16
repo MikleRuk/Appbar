@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
 
                         Picasso.get().load(image_url).into(binding.im3)
                     }
-                    3 -> {
+                    6 -> {
                         val category = deserializedDishesList[i]
                         val id: Int? = category.id
                         val name: String? = category.name
@@ -99,21 +99,7 @@ class MainActivity : AppCompatActivity() {
 
                         Picasso.get().load(image_url).into(binding.im4)
                     }
-                    4 -> {
-                        val category = deserializedDishesList[i]
-                        val id: Int? = category.id
-                        val name: String? = category.name
-                        val image_url: String? = category.imageUrl
-                        val description: String? = category.description
-                        val price: Int? = category.price
-                        with(binding) {
-                            tvTitle1.text = name
-                            tvDescription1.text = description
-                            tvImBt1.text = "от $price Р"
-                        }
 
-                        Picasso.get().load(image_url).into(binding.im1)
-                    }
                     5 -> {
                         val category = deserializedDishesList[i]
                         val id: Int? = category.id
