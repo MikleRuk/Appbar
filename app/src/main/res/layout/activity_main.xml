@@ -41,6 +41,14 @@
                 android:layout_marginStart="16dp"
                 app:srcCompat="@drawable/rectangle_38" />
 
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="12dp"
+                android:layout_height="7.41dp"
+                android:layout_marginTop="48.59dp"
+                android:layout_marginStart="89dp"
+                app:srcCompat="@drawable/vector" />
+
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
