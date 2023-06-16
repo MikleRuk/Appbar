@@ -54,61 +54,81 @@ class MainActivity : AppCompatActivity() {
 
                         Picasso.get().load(image_url).into(binding.im1)
                     }
-//                    1 -> {
-//                        val category = deserializedDishesList[i]
-//                        val id: Int? = category.id
-//                        val name: String? = category.name
-//                        val image_url: String? = category.imageUrl
-//                        val weight: Int? = category.weight
-//                        val price: Int? = category.price
-//                        val description: String? = category.description
-//                        binding.tvImbDish2.text = name
-//                        Picasso.get().load(image_url).into(binding.imBtnDish2)
-//                    }
-//                    2 -> {
-//                        val category = deserializedDishesList[i]
-//                        val id: Int? = category.id
-//                        val name: String? = category.name
-//                        val image_url: String? = category.imageUrl
-//                        val weight: Int? = category.weight
-//                        val price: Int? = category.price
-//                        val description: String? = category.description
-//                        binding.tvImbDish3.text = name
-//                        Picasso.get().load(image_url).into(binding.imBtnDish3)
-//                    }
-//                    3 -> {
-//                        val category = deserializedDishesList[i]
-//                        val id: Int? = category.id
-//                        val name: String? = category.name
-//                        val image_url: String? = category.imageUrl
-//                        val weight: Int? = category.weight
-//                        val price: Int? = category.price
-//                        val description: String? = category.description
-//                        binding.tvImbDish4.text = name
-//                        Picasso.get().load(image_url).into(binding.imBtnDish4)
-//                    }
-//                    4 -> {
-//                        val category = deserializedDishesList[i]
-//                        val id: Int? = category.id
-//                        val name: String? = category.name
-//                        val image_url: String? = category.imageUrl
-//                        val weight: Int? = category.weight
-//                        val price: Int? = category.price
-//                        val description: String? = category.description
-//                        binding.tvImbDish5.text = name
-//                        Picasso.get().load(image_url).into(binding.imBtnDish5)
-//                    }
-//                    5 -> {
-//                        val category = deserializedDishesList[i]
-//                        val id: Int? = category.id
-//                        val name: String? = category.name
-//                        val image_url: String? = category.imageUrl
-//                        val weight: Int? = category.weight
-//                        val price: Int? = category.price
-//                        val description: String? = category.description
-//                        binding.tvImbDish6.text = name
-//                        Picasso.get().load(image_url).into(binding.imBtnDish6)
-//                    }
+                    1 -> {
+                        val category = deserializedDishesList[i]
+                        val id: Int? = category.id
+                        val name: String? = category.name
+                        val image_url: String? = category.imageUrl
+                        val description: String? = category.description
+                        val price: Int? = category.price
+                        with(binding) {
+                            tvTitle2.text = name
+                            tvDescription2.text = description
+                            tvImBt2.text = "от $price Р"
+                        }
+
+                        Picasso.get().load(image_url).into(binding.im2)
+                    }
+                    2 -> {
+                        val category = deserializedDishesList[i]
+                        val id: Int? = category.id
+                        val name: String? = category.name
+                        val image_url: String? = category.imageUrl
+                        val description: String? = category.description
+                        val price: Int? = category.price
+                        with(binding) {
+                            tvTitle3.text = name
+                            tvDescription3.text = description
+                            tvImBt3.text = "от $price Р"
+                        }
+
+                        Picasso.get().load(image_url).into(binding.im3)
+                    }
+                    3 -> {
+                        val category = deserializedDishesList[i]
+                        val id: Int? = category.id
+                        val name: String? = category.name
+                        val image_url: String? = category.imageUrl
+                        val description: String? = category.description
+                        val price: Int? = category.price
+                        with(binding) {
+                            tvTitle4.text = name
+                            tvDescription4.text = description
+                            tvImBt4.text = "от $price Р"
+                        }
+
+                        Picasso.get().load(image_url).into(binding.im4)
+                    }
+                    4 -> {
+                        val category = deserializedDishesList[i]
+                        val id: Int? = category.id
+                        val name: String? = category.name
+                        val image_url: String? = category.imageUrl
+                        val description: String? = category.description
+                        val price: Int? = category.price
+                        with(binding) {
+                            tvTitle1.text = name
+                            tvDescription1.text = description
+                            tvImBt1.text = "от $price Р"
+                        }
+
+                        Picasso.get().load(image_url).into(binding.im1)
+                    }
+                    5 -> {
+                        val category = deserializedDishesList[i]
+                        val id: Int? = category.id
+                        val name: String? = category.name
+                        val image_url: String? = category.imageUrl
+                        val description: String? = category.description
+                        val price: Int? = category.price
+                        with(binding) {
+                            tvTitle5.text = name
+                            tvDescription5.text = description
+                            tvImBt5.text = "от $price Р"
+                        }
+
+                        Picasso.get().load(image_url).into(binding.im5)
+                    }
 
 
                 }
